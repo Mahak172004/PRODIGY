@@ -1,0 +1,40 @@
+body{
+    font-family: 'Arial',sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00bfff;
+}
+
+.time{
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #00bfff;
+    color: white;
+}
+
+#laps{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+    text-align: left;
+}
